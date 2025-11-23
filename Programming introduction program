@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    cout << "**********************************************" << endl;
+    cout << "*  Name:            Adil Mahroof             *" << endl;
+    cout << "*  Roll Number:     15                       *" << endl;
+    cout << "*  Department:      Software Engineering     *" << endl;
+    cout << "*  Address:         Sammam Bandi,Muzaffarabad *" << endl;
+    cout << "*  Hobby:           Cricket                  *" << endl;
+    cout << "*  Qualification:   F.Sc                     *" << endl;
+    cout << "*  SSC Marks:       839 / 1100               *" << endl;
+    cout << "*  HSSC Marks:      767 / 1100               *" << endl;
+    cout << "**********************************************" << endl;
+
+    return 0;
+}
