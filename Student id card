@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout<<
+	" - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n";
+	cout<<"\tStudent Id Card\n";
+	cout<<"- - - - - - - - - - - - - - - - - - - - - - - - - - - - \n";
+	cout<<"Name:\t\tAdil Mahroof\n";
+	cout<<"Roll Number:\t2025-Set-15\n";
+	cout<<"Department:\tSoftware Engenering\n";
+	cout<<"Session:\t2025-2029\n";
+	cout<<
+	"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n";
+	return 0;
+}
+	    
