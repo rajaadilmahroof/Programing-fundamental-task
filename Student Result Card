@@ -1,0 +1,50 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name, department;
+    int roll, eng, math, phy;
+
+    cout << "Enter Student Name: ";
+    getline(cin, name);
+
+    cout << "Enter Roll Number: ";
+    cin >> roll;
+    cin.ignore();
+
+    cout << "Enter Department: ";
+    getline(cin, department);
+
+    cout << "Enter marks in English: ";
+    cin >> eng;
+
+    cout << "Enter marks in Math: ";
+    cin >> math;
+
+    cout << "Enter marks in Physics: ";
+    cin >> phy;
+
+    int total = eng + math + phy;
+    float percentage = (total / 300.0) * 100;
+
+    cout << "\n====================================\n";
+    cout << "          STUDENT RESULT CARD       \n";
+    cout << "====================================\n";
+    cout << "Name:        " << name << endl;
+    cout << "Roll No:     " << roll << endl;
+    cout << "Department:  " << department << endl;
+    cout << "------------------------------------\n";
+    cout << "Subject      Marks\n";
+    cout << "English      " << eng << endl;
+    cout << "Math         " << math << endl;
+    cout << "Physics      " << phy << endl;
+    cout << "------------------------------------\n";
+    cout << "Total Marks: " << total << "/300" << endl;
+    cout << "Percentage:  " << percentage << "%\n";
+    cout << "====================================\n";
+    cout << "Congratulations " << name << "!\n";
+    cout << "====================================\n";
+
+    return 0;
+}
